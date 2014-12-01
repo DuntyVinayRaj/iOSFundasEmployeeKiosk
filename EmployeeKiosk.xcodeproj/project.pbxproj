@@ -14,6 +14,12 @@
 		638558D91A2C9BDD00997761 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638558D81A2C9BDD00997761 /* Images.xcassets */; };
 		638558DC1A2C9BDD00997761 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 638558DA1A2C9BDD00997761 /* LaunchScreen.xib */; };
 		638558E81A2C9BDD00997761 /* EmployeeKioskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 638558E71A2C9BDD00997761 /* EmployeeKioskTests.m */; };
+		638558F51A2C9E1700997761 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 638558F41A2C9E1700997761 /* Employee.m */; };
+		638558F91A2CA45F00997761 /* UITextField+Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 638558F81A2CA45F00997761 /* UITextField+Employee.m */; };
+		638558FD1A2CAA3300997761 /* EmployeeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 638558FC1A2CAA3300997761 /* EmployeeHelper.m */; };
+		638559001A2CABF600997761 /* EmployeeListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638558FF1A2CABF600997761 /* EmployeeListController.m */; };
+		638559031A2CAE5E00997761 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638559021A2CAE5E00997761 /* DetailController.m */; };
+		638559061A2CB1D300997761 /* UITextView+Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 638559051A2CB1D300997761 /* UITextView+Employee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		638558E11A2C9BDD00997761 /* EmployeeKioskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeeKioskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		638558E61A2C9BDD00997761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		638558E71A2C9BDD00997761 /* EmployeeKioskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeKioskTests.m; sourceTree = "<group>"; };
+		638558F31A2C9E1700997761 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		638558F41A2C9E1700997761 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		638558F71A2CA45F00997761 /* UITextField+Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Employee.h"; sourceTree = "<group>"; };
+		638558F81A2CA45F00997761 /* UITextField+Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Employee.m"; sourceTree = "<group>"; };
+		638558FB1A2CAA3300997761 /* EmployeeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeHelper.h; sourceTree = "<group>"; };
+		638558FC1A2CAA3300997761 /* EmployeeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeHelper.m; sourceTree = "<group>"; };
+		638558FE1A2CABF600997761 /* EmployeeListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeListController.h; sourceTree = "<group>"; };
+		638558FF1A2CABF600997761 /* EmployeeListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeListController.m; sourceTree = "<group>"; };
+		638559011A2CAE5E00997761 /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		638559021A2CAE5E00997761 /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		638559041A2CB1D300997761 /* UITextView+Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Employee.h"; sourceTree = "<group>"; };
+		638559051A2CB1D300997761 /* UITextView+Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Employee.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +99,12 @@
 		638558CA1A2C9BDD00997761 /* EmployeeKiosk */ = {
 			isa = PBXGroup;
 			children = (
+				638558FA1A2CAA2300997761 /* Helpers */,
+				638558F61A2CA44B00997761 /* Categories */,
+				638558F21A2C9DFA00997761 /* Models */,
+				638558F11A2C9DF300997761 /* Controllers */,
 				638558CF1A2C9BDD00997761 /* AppDelegate.h */,
 				638558D01A2C9BDD00997761 /* AppDelegate.m */,
-				638558D21A2C9BDD00997761 /* ViewController.h */,
-				638558D31A2C9BDD00997761 /* ViewController.m */,
 				638558D51A2C9BDD00997761 /* Main.storyboard */,
 				638558D81A2C9BDD00997761 /* Images.xcassets */,
 				638558DA1A2C9BDD00997761 /* LaunchScreen.xib */,
@@ -117,6 +137,48 @@
 				638558E61A2C9BDD00997761 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		638558F11A2C9DF300997761 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				638558D21A2C9BDD00997761 /* ViewController.h */,
+				638558D31A2C9BDD00997761 /* ViewController.m */,
+				638558FE1A2CABF600997761 /* EmployeeListController.h */,
+				638558FF1A2CABF600997761 /* EmployeeListController.m */,
+				638559011A2CAE5E00997761 /* DetailController.h */,
+				638559021A2CAE5E00997761 /* DetailController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		638558F21A2C9DFA00997761 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				638558F31A2C9E1700997761 /* Employee.h */,
+				638558F41A2C9E1700997761 /* Employee.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		638558F61A2CA44B00997761 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				638558F71A2CA45F00997761 /* UITextField+Employee.h */,
+				638558F81A2CA45F00997761 /* UITextField+Employee.m */,
+				638559041A2CB1D300997761 /* UITextView+Employee.h */,
+				638559051A2CB1D300997761 /* UITextView+Employee.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		638558FA1A2CAA2300997761 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				638558FB1A2CAA3300997761 /* EmployeeHelper.h */,
+				638558FC1A2CAA3300997761 /* EmployeeHelper.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				638558F91A2CA45F00997761 /* UITextField+Employee.m in Sources */,
 				638558D41A2C9BDD00997761 /* ViewController.m in Sources */,
+				638559001A2CABF600997761 /* EmployeeListController.m in Sources */,
+				638559061A2CB1D300997761 /* UITextView+Employee.m in Sources */,
+				638558F51A2C9E1700997761 /* Employee.m in Sources */,
+				638559031A2CAE5E00997761 /* DetailController.m in Sources */,
+				638558FD1A2CAA3300997761 /* EmployeeHelper.m in Sources */,
 				638558D11A2C9BDD00997761 /* AppDelegate.m in Sources */,
 				638558CE1A2C9BDD00997761 /* main.m in Sources */,
 			);
